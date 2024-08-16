@@ -13,6 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     
+    
 
 }
 .container{
@@ -20,8 +21,8 @@ body{
     width: 40vw;
     background-color:white;
     border-radius: 10px 10px 50px 10px;
-
     border: 1px solid darkgray;
+    overflow: hidden;
 }
 .date-form{
     display: flex;
@@ -72,6 +73,9 @@ flex-direction: column;
     
 
 }
+button:active{
+    background-color: #ab3ace;
+}
 
 .date-form button i{
     padding-top: 28px;
@@ -117,8 +121,8 @@ flex-direction: column;
         
     }
     .date-form button i{
-        padding-top: 20px;
-        padding-left: 16px;
+        padding-top: 3vh;
+        padding-left: 3vw;
             font-size: 18px;
     }
     .date-form button {
@@ -128,8 +132,12 @@ flex-direction: column;
         border-radius: 50%;
         background-color: black;
         display: flex;
+        overflow: hidden;
         
     
+    }
+    button:active{
+        background-color: #ab3ace;
     }
     
 
