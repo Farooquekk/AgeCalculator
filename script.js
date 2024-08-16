@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let yearInput = document.querySelector(".year input");
     let calculateButton = document.querySelector("button");
 
-    calculateButton.addEventListener("click", function (e) {
-      e.target.style.backgroundColor = "#ab3ace"  
-    })
+   
 
     let dayError = document.querySelector(".day .error-message");
     let monthError = document.querySelector(".month .error-message");
