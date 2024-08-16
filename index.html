@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+/>
+</head>
+<body>
+
+    <div class="container">
+        
+        <form class="date-form">
+            <div class="day">
+                <label for="day">DAY</label>
+                <input type="text" id="day" name="day" maxlength="2">
+                <span class="error-message"></span> 
+            </div>
+            <div class="month">
+                <label for="month">MONTH</label>
+                <input type="text" id="month" name="month" maxlength="2">
+                <span class="error-message"></span> 
+            </div>
+            <div class="year">
+                <label for="year">YEAR</label>
+                <input type="text" id="year" name="year" maxlength="4">
+                <span class="error-message"></span> 
+            </div>
+            
+           
+            <br>
+            <button type="button" > <i class="fa-solid fa-arrow-down" style="color: #f4fbf7;"></i> </button>
+        </form>
+
+        <div class="display">
+            <h1><span>- -</span> years</h1>
+            <h1><span>- -</span> months</h1>
+            <h1><span>- -</span> days</h1>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
