@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(240, 237, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+    background-color:white;
+    border-radius: 10px 10px 50px 10px;
+
+    border: 1px solid darkgray;
+}
+.date-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+.date-form .day,.date-form .month,.date-form .year{
+display: flex;
+justify-content:center ;
+flex-direction: column;
+}
+
+.date-form label{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.date-form input{
+    height: 6vh;
+    width: 9vw;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.date-form input:hover{
+    height: 6.2vh;
+    width: 9.1vw;
+    border: 2px solid #ab3ace;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+
+    
+}
+.date-form button {
+    margin-top: 80px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    
+
+}
+
+.date-form button i{
+    padding-top: 28px;
+    padding-left: 22px;
+        font-size: 26px;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; 
+}
+
+
+
+.display{
+    margin-top: 10px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+.display span{
+  color: #ab3ace;
+}
+
+@media (max-width:700px){
+
+    .container{
+        width: 90vw;
+        height: 65vh;
+    }
+
+    .date-form input{
+        height: 8vh;
+        width: 20vw;
+        border: 2px solid lightgray;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 550;
+        
+    }
+    .date-form button i{
+        padding-top: 20px;
+        padding-left: 16px;
+            font-size: 18px;
+    }
+    .date-form button {
+        margin-top: 90px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        
+    
+    }
+    
+
+
+}
